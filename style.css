@@ -1,0 +1,71 @@
+/* .box {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  border: 2px solid black;
+} */
+
+.container {
+  display: flex;
+  margin: 100px 50px 50px 50px;
+}
+
+.content {
+  width: 156px;
+  border: 1px solid black;
+  margin: 0 auto;
+}
+
+.item {
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  display: inline-block;
+  font-size: 25px;
+  border: 1px solid black;
+  cursor: pointer;
+  vertical-align: middle;
+  transition: background 0.1s;
+}
+
+.item:hover {
+  background-color: rgb(219, 216, 216);
+}
+
+.car-image {
+  width: 300px;
+}
+
+.accordion-list-item {
+  position: relative;
+  transition: all 500ms linear;
+}
+
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 5s;
+}
+
+.active,
+.accordion:hover {
+  background-color: #ccc;
+}
+
+.panel {
+  background-color: white;
+  display: none;
+  padding: 20px;
+  overflow: hidden;
+}
+
+.panel.active {
+  display: block;
+}
