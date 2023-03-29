@@ -79,3 +79,27 @@
   border: 1px solid black;
   width: 270px;
 }
+
+.slider {
+  margin: 0 auto;
+  width: 800px;
+  height: 500px;
+  background-color: beige;
+}
+
+.hidden {
+  display: none;
+}
+
+.controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 15px;
+}
+
+.slide-img {
+  width: 800px;
+  height: 500px;
+}
